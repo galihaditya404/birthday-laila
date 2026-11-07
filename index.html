@@ -1071,7 +1071,7 @@
                     // Boleh 1 sampai 3 foto. Hapus baris photos kalau tidak dipakai.
                     // Foto juga bisa dipasang di halaman intro dan closing dengan cara yang sama.
                     photos: [
-                        { src: "foto/foto1.jpg", caption: "Love" }
+                        { src: "foto/foto1.JPG", caption: "Love" }
                     ],
                     paragraphs: [
                         "Di umur {age} ini, aku cuma ingin kamu tahu, kamu sudah tumbuh jadi orang yang dewasa dan luar biasa, dan aku bangga denganmu bububbb",
@@ -1277,7 +1277,7 @@
         const lb = $('#lightbox');
         function openLightbox(src, cap) {
             $('#lightboxImg').src = src;
-            $('#lightboxImg').alt = cap || 'Foto';
+            $('#lightboxImg').alt = cap || 'foto';
             $('#lightboxCap').textContent = cap || '';
             lb.hidden = false;
         }
